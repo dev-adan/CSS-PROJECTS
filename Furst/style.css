@@ -10,7 +10,8 @@ html{
     box-sizing: border-box;
 }
 body{
-
+    overflow-x : hidden;
+    background-color : rgb(151, 69, 69);
 }
 
 a{
@@ -21,6 +22,7 @@ a{
 .main-page{
     background-color: hsl(81,94%,63%);
     height: 70vh;
+    width: 100vw;
 }
 
 .nav{
@@ -133,7 +135,6 @@ a{
 }
 
 
-
 .main-content-image-container img{
     width: 40px;
 }
@@ -141,16 +142,20 @@ a{
 
 
 .main-content-graphics{
+ 
     position: relative;
+   
 }
 
 .main-content-main-illustration{
+ 
    
     
 }
 
 .main-content-main-illustration img{
-    width: 440px;
+    width: 350px;
+   
     transform: translateY(-50px);
 }
 
@@ -160,15 +165,15 @@ a{
     position: absolute;
     top:-5%;
     right: -30%;
-
-
+  
 
     background-color: white;
     color: black;
-   padding: 1rem .8rem;
-   width: fit-content;
-   border-radius: 15px;
-   width: 220px;
+    padding: 1rem .8rem;
+    width: fit-content;
+    border-radius: 15px;
+    width: 200px;
+   
  
 
    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
@@ -187,7 +192,7 @@ a{
 
 .main-content-graphics-box p{
     margin-left: .5rem;
-}
+ }
 
 .main-content-graphics-box p > span{
     display: block;
@@ -202,6 +207,7 @@ a{
     position: absolute;
     top: 50%;
     left: 100%;
+
 }
 
 .main-content-graphics .vector1{
@@ -210,4 +216,96 @@ a{
     position: absolute;
     top: 80%;
     left: 7%;
+      overflow-x : hidden
+  
+} 
+
+li{list-style: none;}
+
+
+.mid-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
 }
+
+.mid-section-heading {
+  margin-top: 3rem;
+}
+
+.mid-section-heading h1{
+    font-size: 2.5rem;
+    
+}
+
+.mid-section-cards{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.mid-section-single-card{
+    /* background-color: rgb(250, 246, 246); */
+    border: 3px solid rgb(248, 248, 248);
+    margin: .2rem;
+    padding: 1.8rem 2.1rem;
+    border-radius: 20px;
+}
+
+.card-upper-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .6rem;
+}
+.card-upper-content > div{
+    display: flex;
+   
+}
+.card-upper-content img{
+    margin-right: .7rem;
+}
+
+
+.card-bottom-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+.card-bottom-content  .span {
+    display: block;
+}
+
+
+
+.card-bottom-content ul{
+    display: flex;
+
+    margin-left: .2rem;
+
+}
+
+
+.card-bottom-content ul li .img1{
+    margin-right: -14px;
+}
+.card-bottom-content ul li .img2{
+    margin-right: -14px;
+}
+
+
+.card-upper-content img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.card-bottom-content ul li img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+
+
