@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: inherit;
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+  
+
+}
+
+.landing-page{
+    background-color: black;
+    height: 120vh;
+    
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.nav .nav-logo{
+
+    color: white;
+    padding: 2rem 0;
+}
+
+
+
+.nav-search{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+    /* width: 80%; */
+    
+}
+
+.nav-search-links a{
+    color: #fff;
+    font-size: 1.3rem;
+
+}
+
+.nav-search-links a + a{
+    margin-left: 2rem;
+}
+
+.form-container{
+    margin-top: 2.4rem;
+    min-width: 50%;
+}
+
+
+.nav-search-searchbar{
+    background-color: #fff;
+    /* width: 70%; */
+    border-radius: 50px;
+    margin-top: 2.4rem;
+}
+
+
+.form{
+    background-color: #fff;
+    /* min-width: 60%; */
+    padding: .3rem 1rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.form input {
+    font-size: 1rem;
+    border: 0;
+    outline: none;
+}
+
+.form input::placeholder{
+    font-size: .9rem;
+}
+
+
+
+.form .location-input input {
+    width: 100%;
+    
+}
+
+.form .location-input{
+    flex-basis: 40%;
+}
+
+.form input{
+    display: block;
+}
+
+
+.form button{
+
+    
+    width: 6rem;
+    height: 3.8rem;
+    min-width: 4rem;
+    min-height: 2.8rem;
+    border-radius: 50%;
+    color: #fff;
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+   
+}
+
+.location-input{
+    flex: 1;
+}
+
+.user-nav{
+    color: #fff;
+    display: flex;
+
+}
+
+.user-nav > *{
+    margin: 2rem .6rem;
+    
+}
+
+
+
+.user-nav a {
+    color: #fff;
+}
+
