@@ -1,0 +1,163 @@
+/* svg-inline--fa fa-search fa-w-16 fa-3x */
+/* fa fa-shopping-cart */
+/* fa fa-user */
+
+/* font-family: "Roboto-new"; */
+
+/* #172237  */
+
+:root {
+    --primary-color : #172237;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+ i{
+     color: #fff;
+ }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#header{
+    background: var(--primary-color);
+    height: 13vh;
+    margin : auto;
+}
+
+.upper-content{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.left-content{
+    /* background-color: cyan; */
+    color: #fff;
+    flex : 1;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    
+}
+
+.right-content{
+
+    flex: 3;
+    /* padding-left: 3rem; */
+    padding-top: 1rem;
+
+    
+}
+
+
+.right-content .list-items{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 0.7rem;
+    margin-right: 10rem;
+    
+    
+}
+.right-content .list-items a{
+    padding : 0.5rem;
+}
+.right-content .list-items img{
+    position: absolute;
+    top : 1%;
+    right: 1%;
+}
+
+.item-a{
+    display: inline;
+}
+
+.lower-content{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.image-content{
+    flex: 1;
+}
+
+.search-bar{
+    flex: 3;
+
+}
+
+.search-bar input{
+    width: 100%;
+    height: 3rem;
+}
+
+.last-item{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 4rem;
+    font-size: 2rem;
+
+}
+
+.last-item p{
+    font-size: 1rem;
+}
+
+
+
+
+@media (max-width : 1160px){
+
+    #header{
+        height: 16vh;
+    }
+    .upper-content{
+        display: block;
+    }
+
+    .image-content img{
+        height: 40px;
+        
+       
+        
+    }
+    
+   
+    
+    .search-bar input{
+        width: 80%;
+        height: 3rem;
+        
+    }
+    
+    .last-item{
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 4rem;
+        font-size: 1.7rem;
+    
+    }
+    
+    
+}
+

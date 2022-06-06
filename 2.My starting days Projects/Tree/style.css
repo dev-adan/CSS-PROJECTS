@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    list-style: none;
+}
+
+
+body{
+    /* overflow-x:hidden;  */
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#main{
+    position: relative; 
+    height: 95vh;
+    background-color: black;
+    z-index: -2;
+    
+}
+
+
+#main:after{
+    background-image: url('https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    position: absolute;
+    content : '';
+    top : 0;
+    left: 0;
+    height : 100%;
+    width: 100%;
+    opacity: .5;
+    
+    z-index: -1;
+}
+
+
+ .container{
+    width:80%;
+    margin: auto;
+} 
+
+ .header{
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    background-color: #01546B;
+    margin-top: 10rem; 
+    /* margin-top: 10%;   */
+    /* position : absolute; 
+    top: 15%;
+    width: 80%;
+    margin: auto; */
+
+   
+}
+
+#main .header .header-name{
+    color : #fff;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
+    /* background-color : red; */
+    text-transform: uppercase;
+}
+
+#main .header .main-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin-left:70px;
+    flex-direction: flex-end;
+}
+#main .header .main-nav ul{
+   /* white-space: nowrap; */
+    display: flex;
+    
+
+}
+
+#main .header .main-nav ul a{
+    color : #fff; 
+    margin: 0 2rem;
+    text-transform: uppercase;
+}
+
+
+#main .main-content{
+    display:flex;
+    flex-direction: column;
+    width: 42%;
+    position: absolute;
+    /* top: 45%; */
+    top : 25rem;
+    margin: auto;
+    color:#FFFFFF;
+
+  
+    
+ 
+}
+
+
+#main .main-content h1{
+    font-size: 5.5rem;
+    margin-bottom: 1rem;
+
+}
+
+#main .main-content p{
+    line-height: 1.4rem;
+    width:98%;
+    font-size: 1.2rem;
+}
+
+#main .main-content .btn {
+    display: flex;
+    /* background-color: red; */
+    margin-top: 2rem;
+
+}
+
+#main .main-content .btn a{
+    color: #ffff;
+    margin-right:1rem;
+    background-color:#0077cc;
+    padding : 1rem 2rem;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+#contact-section{
+    background-color: rgba(1, 84, 107, 0.9);
+}
+
+.contact{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding : 1.4rem 2rem;
+    /* font-size : .0rem; */
+}
+
+.contact:first-child{
+    margin-left: -2rem;
+}
+
+
+.contact .c-1{
+    display: flex;
+    align-items: center;
+}
+
+
+.contact .c-1 i {
+    color: #fff;
+    margin-right: 1rem;
+    padding:1rem;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.2); 
+    font-size: 1.2rem;
+    /* color: green; */
+    transition:  all 1s ease-in; 
+}
+
+ .contact .c-1 i:hover{
+    background-color: #fff;
+    /* color: #fff; */
+   
+} 
+
+
+.contact .c-1 i:hover{
+    color: #0077cc;
+}
+
+.contact .c-1 .contact-detail h2{
+    font-weight: 100;
+    font-size : 1.3rem;
+    
+} 
+
+
+#main-content{
+    /* margin-top:4rem; */
+    padding  : 6rem 0;
+    
+}
+
+.upper-content{
+   text-align: center;
+   font-weight: 100;
+   margin-bottom: 6rem;
+   /* opacity: .9; */
+}
+
+ .upper-content p{
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+
+#main-content .lower-content{
+    
+    display:grid; 
+    /* width: 80%; */
+    /* margin: auto; */
+    grid-gap: 4rem 4rem;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+#main-content .grid{
+    position : relative;
+    border : 1px solid #0AC6FC;
+    padding: 2rem 2rem;
+    width:80%;
+    margin: auto;
+    transition:all .5s;
+    
+}
+
+#main-content .grid:hover{
+    background-color: #01546B;  
+    
+}
+
+#main-content .grid:hover h1{
+    color: #fff;
+    transition:all 1.2s ;
+}
+
+#main-content .grid:hover p{
+    color: #fff;
+    transition:all 1.2s ;
+}
+
+
+#main-content .grid:hover i{
+    background-color: #0AC6FC;
+    transition : .6s;
+}
+
+#main-content .grid:hover a{
+    color: #0AC6FC;
+}
+
+
+#main-content .lower-content i {
+    position: absolute;
+    top: 0;
+    left : 90%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+    background-color: #01546B;
+    color: #fff;
+    padding:0.6rem .6rem;
+    /* transition : all .3s; */
+}
+
+#main-content .lower-content .grid p {
+    padding : 1rem 0;
+}
+
+#mid-content{
+    background-color: black;
+    z-index: -2;
+    position: relative;
+    height : 90vh;
+    color: #fff;
+}
+
+#mid-content:after{
+
+    position: absolute;
+    content : '';
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/federico-di-dio-photography-BliFtlML8kk-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity : .7;
+    z-index: -1;
+}
+
+
+#mid-content .upper-content{
+    padding : 4rem 0;
+    
+}
+
+img{
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.mid-content-main-content{
+    /* height: 50vh; */
+    background-color: #fff;
+    color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding : 3rem;
+    grid-gap: 4rem;
+}
+
+
+.mid-content-main-content .mid-content-left{
+    font-size: 1.1rem;
+
+} 
+.mid-content-main-content .mid-content-left .left-columns{
+   padding-top: 3rem;
+    display: flex;
+    width: 80%;
+    /* margin: auto; */
+    justify-content: flex-end;
+
+}
+
+.mid-content-main-content .mid-content-left .left-columns .left{
+    margin-right: auto;
+}
+
+.mid-content-main-content .mid-content-left .left-columns p{
+    white-space: nowrap;
+    margin-bottom: 1.4rem;
+}
+.mid-content-main-content .mid-content-left .left-columns span{
+    line-height: 2rem;
+    margin-right: 1rem;
+    background-color: #0077cc;
+    color: #ffffff;
+    border-radius:60rem;
+    padding : .2rem .5rem;
+}
+
+.mid-content-right img {
+    /* margin-left: 10rem; */
+    height:400px;
+    width: 400px;
+    box-shadow: -2rem -1rem 1rem rgba(0, 0, 0, 0.3);
+}

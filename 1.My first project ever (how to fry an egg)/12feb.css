@@ -1,0 +1,160 @@
+body {
+
+    /* background-image: url(https://images.pexels.com/photos/172276/pexels-photo-172276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); ; */
+    /* background-image: url(https://cdn.pixabay.com/photo/2015/07/31/20/41/background-869596__340.png); */
+    background-color: ghostwhite;
+}
+
+#firstheading {
+    
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    color: darkorange;
+
+}
+
+#firstparagraph {
+
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: slategrey;
+}
+
+ #secondheading {
+
+    text-align: center;
+    font-size: 64px;
+    font-family: cursive;
+    color: darkorange;
+} 
+
+
+#secondparagraph{
+
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: slategrey;
+}
+
+#thirdheading {
+
+    text-align: center;
+    font-size: 64px;
+    font-family: cursive;
+    color: darkorange;
+
+
+}
+
+.firstdiv {
+
+    text-align: center;
+}
+
+#fourthheading{
+
+    text-align: center;
+    font-size: 64px;
+    font-family: cursive;
+    color :skyblue;
+
+
+}
+
+.seconddiv{
+
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+
+.thirddiv{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+#thirdparagraph{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: slategrey;
+    padding-top: 50;
+}
+.fourthdiv{
+
+
+    text-align: center;
+    padding-top: 100px;
+}
+
+.fifthdiv{
+
+    text-align: center;
+    padding-top: 100px;
+
+
+}
+
+#fourthparagraph{
+
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: slategrey;
+    padding-top: 50;
+
+
+}
+
+.sixthdiv{
+
+    text-align : center;
+    padding-top: 100px;
+
+}
+
+.seventhdiv{
+
+    text-align : center;
+    padding : 100px;
+
+}
+
+#fifthparagraph{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: slategrey;
+    padding-top: 50;
+
+}
+
+.eigthdiv{
+
+    text-align : center;
+    padding : 100px;
+    size: 100px;
+
+}
+
+/* #ninthid{
+
+    text-align: center;
+    font-size: 30px;
+} */
+
+#tenthid{
+
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
